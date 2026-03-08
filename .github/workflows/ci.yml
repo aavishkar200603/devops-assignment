@@ -22,3 +22,6 @@ jobs:
 
     - name: Run App
       run: node app.js &
+
+    - name: Run Tests
+      run: npm test
