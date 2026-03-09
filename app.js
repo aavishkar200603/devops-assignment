@@ -11,6 +11,6 @@ app.get("/add",(req,res)=>{
     res.json({result:a+b});
 });
 
-app.listen(3000,()=>{
+app.listen(3000, "0.0.0.0", () => {
     console.log("Server running on port 3000");
-});
+  });
